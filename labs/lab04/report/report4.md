@@ -4,70 +4,12 @@ title: "Архитектура компьютеров"
 subtitle: "Лабораторная работа №4"
 author: "Хамдамова Айжана"
 
-## Generic otions
-lang: ru-RU
-toc-title: "Содержание"
+
+# "Содержание":
 1. Цель работы 
 2. Ход работы
 3. Самостоятельная работа 
-
-## Bibliography
-bibliography: bib/cite.bib
-csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
-
-## Pdf output format
-toc: true # Table of contents
-toc-depth: 2
-lof: true # List of figures
-lot: true # List of tables
-fontsize: 12pt
-linestretch: 1.5
-papersize: a4
-documentclass: scrreprt
-## I18n polyglossia
-polyglossia-lang:
-  name: russian
-  options:
-	- spelling=modern
-	- babelshorthands=true
-polyglossia-otherlangs:
-  name: english
-## I18n babel
-babel-lang: russian
-babel-otherlangs: english
-## Fonts
-mainfont: PT Serif
-romanfont: PT Serif
-sansfont: PT Sans
-monofont: PT Mono
-mainfontoptions: Ligatures=TeX
-romanfontoptions: Ligatures=TeX
-sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
-monofontoptions: Scale=MatchLowercase,Scale=0.9
-## Biblatex
-biblatex: true
-biblio-style: "gost-numeric"
-biblatexoptions:
-  - parentracker=true
-  - backend=biber
-  - hyperref=auto
-  - language=auto
-  - autolang=other*
-  - citestyle=gost-numeric
-## Pandoc-crossref LaTeX customization
-figureTitle: "Рис."
-tableTitle: "Таблица"
-listingTitle: "Листинг"
-lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
-lolTitle: "Листинги"
-## Misc options
-indent: true
-header-includes:
-  - \usepackage{indentfirst}
-  - \usepackage{float} # keep figures where there are in the text
-  - \floatplacement{figure}{H} # keep figures where there are in the text
----
+4. Вывод
 
 # Цель работы
 Целью работы является освоение процедуры оформления отчетов с помощью
@@ -96,15 +38,23 @@ make clean
 ### 6.
 Затем я открываю файл report.md c помощью текстового редактора, например gedit
 И начинаю оформлять лабораторную в makedown.
-# Самостоятельная работа 
+# Самостоятельная работа
+В соответствующем каталоге я оформляю отчёт по лабораторной работе № 3 в формате Markdown. В качестве отчёта необходимо предоставить отчёты в 3 форматах: pdf, docx и md.
+[Шаг1](/afs/.dk.sci.pfu.edu.ru/home/a/k/akhamdamova/Изображения/Снимки экрана/Снимок экрана от 2022-10-27 17-52-51.png)
+### И загружаю файлы на github:
+cd ~/work/study/2022-2023/"Архитектура компьютера"/arch-pc
+git add .
+git commit -am 'feat(main): add files lab-4'
+git push
 
 
 
-# Выводы
+
+# Вывод:
+ Я научилась оформлять отчеты с помощью
+легковесного языка разметки Markdown.
 
 
 
-# Список литературы{.unnumbered}
 
-::: {#refs}
 :::
