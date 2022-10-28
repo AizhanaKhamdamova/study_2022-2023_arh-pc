@@ -18,7 +18,8 @@ author: "Хамдамова Айжана"
 # Выполнение лабораторной работы
 ##II.Ход работы:
 1. Первым делом создаю учётную запись на сайте https://github.com/ и заполняю основные данные. Ввожу email, пароль и username.
-/afs/.dk.sci.pfu.edu.ru/home/a/k/akhamdamova/Изображения/Снимки экрана/1.png
+![]
+/afs/.dk.sci.pfu.edu.ru/home/a/k/akhamdamova/'Изображения'/'Снимки экрана'/1.jpg
 2.     2. Сначала сделаем предварительную конфигурацию git. Открываю терминал и ввожу следующие команды, указав имя и email владельца репозитория:
 git config --global user.name "<AizhanaKhamdamova >"
 git config --global user.email "<1032225989@pfur.ru >"

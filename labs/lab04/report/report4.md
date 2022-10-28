@@ -46,6 +46,8 @@ cd ~/work/study/2022-2023/"Архитектура компьютера"/arch-pc
 git add .
 git commit -am 'feat(main): add files lab-4'
 git push
+![] 
+(/afs/.dk.sci.pfu.edu.ru/home/a/k/akhamdamova/Изображения/Снимки экрана/Снимок экрана от 2022-10-27 18-15-26.png) 
 
 
 
